@@ -1,0 +1,10 @@
+Normal text file
+
+%PLACEHOLDER%
+%PLACEHOLDER%
+%PLACEHOLDER%
+
+With lines and whatever, %PLACEHOLDER%
+
+123%PLACEHOLDER%123	
+ok %PLACEHOLDER% ok
