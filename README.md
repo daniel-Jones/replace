@@ -9,6 +9,9 @@ definition in replace.h:
 int replaceinfile(char *originalfile, char *destinationfile, char *placeholder, char *replacement);
 // 0 = failure, 1 = success
 ````
+
+````replaceinfile("input.txt", "output.txt", "%PLACEHOLDER%", "replacement string");````
+
 input.txt
 
 ````
