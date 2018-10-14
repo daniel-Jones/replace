@@ -76,11 +76,11 @@ replaceinfile(char *originalfile, char *destinationfile, char *placeholder, char
 			i += strlen(placeholder);
 			substr++;
 			substr = strstr(substr, placeholder);
-			printf("%s", replacement);
+			//printf("%s", replacement);
 			fprintf(destination, "%s", replacement);
 		}
 		ch = filebuffer[i];
-		putchar(ch);
+		//putchar(ch);
 		fputc(ch, destination);
 	}
 	fclose(template);
