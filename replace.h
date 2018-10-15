@@ -19,9 +19,6 @@
 size_t
 getfilelength(FILE *fp);
 
-void
-appendchar(char *dest, char ch);
-
 int
 replaceinfile(char *originalfile, char *destinationfile, char *placeholder, char *replacement);
 
