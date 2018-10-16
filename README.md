@@ -43,7 +43,7 @@ With lines and whatever, replacement string
 123replacement string123	
 ok replacement string ok
 ````
-Also included a function to replace every occurance of ap lceholder with a string in memory.
+Also included a function to replace every occurance of a placeholder with a string in memory.
 
 ````
 char *replaced = replaceinmemory("this string this string is a test string", "string", "word");
@@ -52,6 +52,11 @@ if (!replaced)
 else
 	puts(replaced);
 free(replaced); /* you must free the returned memory pointer */
+````
+
+output
+````
+this word this word is a test word
 ````
 
 See main.c for a usage examples
