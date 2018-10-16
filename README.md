@@ -43,5 +43,15 @@ With lines and whatever, replacement string
 123replacement string123	
 ok replacement string ok
 ````
+Also included a function to replace every occurance of ap lceholder with a string in memory.
 
-See main.c for a usage example
+````
+char *replaced = replaceinmemory("this string this string is a test string", "string", "word");
+if (!replaced)
+	puts("failed replacing word");
+else
+	puts(replaced);
+free(replaced); /* you must free the returned memory pointer */
+````
+
+See main.c for a usage examples
